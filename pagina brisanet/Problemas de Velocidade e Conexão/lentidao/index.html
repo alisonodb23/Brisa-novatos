@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhorar Conexão Wi-Fi Brisanet</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f4c81 0%, #1a6fba 100%);
+        }
+        
+        .card {
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .solution-card {
+            transition: all 0.3s ease;
+        }
+        
+        .solution-card:hover {
+            transform: scale(1.02);
+        }
+
+        .highlight-box {
+            border-left: 4px solid #f08a06;
+        }
+
+        .brisanet-color {
+            color: #0f4c81;
+        }
+
+        .brisanet-bg {
+            background-color: #0f4c81;
+        }
+
+        .brisanet-border {
+            border-color: #0f4c81;
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <header class="gradient-bg text-white">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Melhorar Conexão Wi-Fi Brisanet</h1>
+                <p class="text-xl md:text-2xl opacity-90">Aprenda a resolver problemas comuns de lentidão e instabilidade na rede wi-fi do cliente.</p>
+                <div class="mt-10">
+                    <a href="#causas-comuns" class="bg-white text-blue-700 font-medium px-6 py-3 rounded-lg hover:bg-blue-50 transition duration-300 mx-2 my-2 inline-block">Entender as Causas</a>
+                    <a href="#solucoes-praticas" class="bg-transparent border-2 border-white text-white font-medium px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition duration-300 mx-2 my-2 inline-block">Ver Soluções</a>
+                </div>
+            </div>
+        </div>
+        
+        <svg class="w-full h-16 text-gray-50 block" viewBox="0 0 1440 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48h1440V0c-211.98 21.297-433.96 37.297-720 37.297S211.98 21.297 0 0v48z"></path>
+        </svg>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <section id="causas-comuns" class="max-w-4xl mx-auto mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Principais Causas de um Wi-Fi Lento</h2>
+                <p class="text-lg text-gray-600">Identifique os vilões que prejudicam o desempenho da sua rede sem fio.</p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-8">
+                <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+                    <div class="md:w-1/3">
+                        <img src="https://jasmcole.files.wordpress.com/2014/08/damping.gif" alt="Animação de ondas de sinal Wi-Fi sendo amortecidas por obstáculos" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-2/3">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Vilões da Conexão Sem Fio</h3>
+                        <p class="text-gray-700 mb-4">Muitas vezes, a culpa da internet lenta não é do plano contratado, mas de fatores dentro da sua própria casa que afetam o sinal Wi-Fi.</p>
+                        <p class="text-gray-700">Os principais problemas são:</p>
+                        <ul class="list-disc pl-5 text-gray-700 mt-3 space-y-2">
+                            <li><strong>Posicionamento Ruim do Roteador:</strong> Colocá-lo em cantos, dentro de móveis ou atrás de paredes grossas enfraquece o sinal.</li>
+                            <li><strong>Interferência de Outros Sinais:</strong> Redes Wi-Fi de vizinhos, micro-ondas, telefones sem fio e dispositivos Bluetooth podem atrapalhar.</li>
+                            <li><strong>Excesso de Dispositivos Conectados:</strong> Muitos aparelhos usando a rede ao mesmo tempo podem sobrecarregar o roteador.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="highlight-box pl-4 py-1">
+                    <p class="text-gray-700 italic">
+                        "Um bom sinal de Wi-Fi depende tanto da qualidade do serviço da Brisanet quanto da otimização da sua rede doméstica. Pequenos ajustes podem fazer uma grande diferença na sua experiência."
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="solucoes-praticas" class="max-w-4xl mx-auto mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Soluções Práticas para Melhorar seu Wi-Fi</h2>
+                <p class="text-lg text-gray-600">Passos simples e eficazes que você pode tomar agora mesmo.</p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                <div class="flex flex-wrap border-b border-gray-200">
+                    <button id="tab-posicionamento" class="tab-button px-4 md:px-6 py-3 font-medium text-blue-600 border-b-2 border-blue-600">Posicionamento</button>
+                    <button id="tab-frequencias" class="tab-button px-4 md:px-6 py-3 font-medium text-gray-500 hover:text-blue-600">Canais e Frequências</button>
+                    <button id="tab-repetidores" class="tab-button px-4 md:px-6 py-3 font-medium text-gray-500 hover:text-blue-600">Repetidores</button>
+                    <button id="tab-mesh" class="tab-button px-4 md:px-6 py-3 font-medium text-gray-500 hover:text-blue-600">Rede Mesh</button>
+                </div>
+                
+                <div id="content-posicionamento" class="tab-content active p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Posicionamento Ideal do Roteador</h3>
+                    <p class="text-gray-700 mb-4">O local onde seu roteador está instalado é crucial para a qualidade do sinal.</p>
+                    <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-2">
+                        <li><strong>Local Central:</strong> Coloque o roteador no cômodo mais central da casa para distribuir o sinal de forma mais uniforme.</li>
+                        <li><strong>Lugar Alto:</strong> Posicione-o em uma estante ou prateleira alta, pois as ondas de rádio se propagam para baixo e para os lados.</li>
+                        <li><strong>Longe de Obstáculos:</strong> Evite paredes grossas, aquários, espelhos e móveis grandes.</li>
+                        <li><strong>Longe de Eletrônicos:</strong> Mantenha-o afastado de micro-ondas, TVs e telefones sem fio para evitar interferência.</li>
+                    </ul>
+                </div>
+                
+                <div id="content-frequencias" class="tab-content p-6">
+                     <h3 class="text-xl font-bold text-gray-800 mb-3">Otimizando Frequências e Canais</h3>
+                    <p class="text-gray-700 mb-4">Seu roteador Brisanet transmite em duas frequências: 2.4 GHz e 5 GHz.</p>
+                    <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-2">
+                        <li><strong>Rede 2.4 GHz:</strong> Tem maior alcance e atravessa paredes melhor, mas é mais lenta e suscetível a interferências. Ideal para dispositivos longe do roteador.</li>
+                        <li><strong>Rede 5 GHz:</strong> É muito mais rápida e tem menos interferência, mas seu alcance é menor. Perfeita para smart TVs, consoles e computadores próximos ao roteador.</li>
+                        <li><strong>Mudar o Canal:</strong> Se muitas redes de vizinhos usam o mesmo canal que a sua, o sinal fica congestionado. Use um app (como o "WiFi Analyzer") para encontrar um canal menos congestionado (1, 6 ou 11 são os mais recomendados para 2.4 GHz).</li>
+                    </ul>
+                </div>
+                
+                <div id="content-repetidores" class="tab-content p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Usando Repetidores de Sinal</h3>
+                    <p class="text-gray-700 mb-4">Um repetidor (ou extensor) é um aparelho que "pega" o sinal do seu roteador e o retransmite para áreas onde o Wi-Fi é fraco.</p>
+                    <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-2">
+                         <li><strong>Solução para Pontos Cegos:</strong> Ideal para resolver a falta de sinal em um cômodo específico e distante.</li>
+                         <li><strong>Custo Acessível:</strong> É a solução mais barata para expandir a cobertura da sua rede.</li>
+                         <li><strong>Desvantagem:</strong> Um repetidor geralmente corta a velocidade da internet pela metade e cria uma segunda rede Wi-Fi, o que pode ser inconveniente.</li>
+                    </ul>
+                </div>
+                
+                <div id="content-mesh" class="tab-content p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">A Solução Definitiva: Rede Mesh</h3>
+                    <p class="text-gray-700 mb-4">A tecnologia Mesh usa múltiplos "nós" ou "pontos" que trabalham juntos para criar uma única rede Wi-Fi potente e estável em toda a casa.</p>
+                    <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-2">
+                        <li><strong>Cobertura Total e Inteligente:</strong> Elimina todas as zonas de sombra, cobrindo áreas grandes de forma eficiente.</li>
+                        <li><strong>Uma Única Rede:</strong> Você se move pela casa e seu dispositivo conecta-se automaticamente ao nó com o melhor sinal, sem quedas.</li>
+                        <li><strong>Máximo Desempenho:</strong> Mantém a velocidade da sua internet muito melhor do que um repetidor comum. É a melhor solução para planos de alta velocidade da Brisanet.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="equipamentos-recomendados" class="max-w-4xl mx-auto mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Recomendações de Equipamentos Wi-Fi</h2>
+                <p class="text-lg text-gray-600">Invista em hardware de qualidade para uma cobertura e velocidade superiores.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-2">Roteadores Básicos</h3>
+                        <p class="text-gray-700 mb-4 text-center">Boas opções para substituir o modelo padrão e ter mais controle.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">TP-Link Archer C6</span></li>
+                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">Intelbras Action RG 1200</span></li>
+                        </ul>
+                        <p class="text-sm text-gray-600 italic">Ideal para planos de até 100-200 Mbps e apartamentos.</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-white rounded-xl shadow-md overflow-hidden border-2 border-blue-500">
+                    <div class="bg-blue-500 text-white text-center py-1 text-sm font-medium">RECOMENDADO</div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-2">Roteadores Wi-Fi 6</h3>
+                        <p class="text-gray-700 mb-4 text-center">Excelente custo-benefício para planos de alta velocidade.</p>
+                        <ul class="space-y-2 mb-4">
+                             <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">TP-Link Archer AX10/AX23</span></li>
+                             <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">ASUS RT-AX55</span></li>
+                        </ul>
+                        <p class="text-sm text-gray-600 italic">Perfeito para jogos online, streaming 4K e múltiplos dispositivos.</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-2">Sistemas Mesh</h3>
+                        <p class="text-gray-700 mb-4 text-center">A melhor solução para casas grandes e cobertura total.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">TP-Link Deco M4/M5</span></li>
+                            <li class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span class="text-gray-700">Intelbras Twibi Giga</span></li>
+                        </ul>
+                        <p class="text-sm text-gray-600 italic">Ideal para eliminar pontos cegos e ter sinal forte em todos os cantos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="faq" class="max-w-4xl mx-auto mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Perguntas Frequentes</h2>
+                <p class="text-lg text-gray-600">Respostas para dúvidas comuns de Clientes</p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="divide-y divide-gray-200">
+                    <div class="faq-item">
+                        <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center">
+                            <span>Por que minha internet é rápida no cabo e lenta no Wi-Fi?</span>
+                            <svg class="faq-arrow h-5 w-5 text-gray-500 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 py-4 bg-gray-50 hidden">
+                            <p class="text-gray-700">Isso é um sinal clássico de que o problema está na sua rede sem fio, e não no plano da Brisanet. As causas mais prováveis são interferência, posicionamento ruim do roteador ou um equipamento que não consegue receber a velocidade contratada via Wi-Fi.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center">
+                            <span>Qual a diferença entre a rede 2.4 GHz e a 5 GHz?</span>
+                            <svg class="faq-arrow h-5 w-5 text-gray-500 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 py-4 bg-gray-50 hidden">
+                            <p class="text-gray-700">A rede <strong>2.4 GHz</strong> tem maior alcance, mas é mais lenta e sofre mais interferência. É boa para dispositivos mais distantes. A rede <strong>5 GHz</strong> é muito mais rápida e estável, mas tem um alcance menor. É ideal para atividades que exigem velocidade, como jogos e streaming, em dispositivos próximos ao roteador.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center">
+                            <span>Quando devo usar um repetidor e quando devo optar por uma rede Mesh?</span>
+                            <svg class="faq-arrow h-5 w-5 text-gray-500 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 py-4 bg-gray-50 hidden">
+                            <p class="text-gray-700">Use um <strong>repetidor</strong> se você tem um problema de sinal em apenas um ou dois cômodos específicos e não se importa com uma pequena perda de velocidade. Opte por uma <strong>rede Mesh</strong> se você quer cobertura total e de alta performance em uma casa grande, com vários andares, ou se tem um plano de internet muito rápido e não quer perder velocidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center">
+                            <span>Posso trocar o roteador da Brisanet por um meu? Perco a garantia?</span>
+                            <svg class="faq-arrow h-5 w-5 text-gray-500 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 py-4 bg-gray-50 hidden">
+                             <p class="text-gray-700">Sim, você pode usar um roteador próprio. O equipamento da Brisanet (a ONU, onde o cabo de fibra ótica chega) continuará sendo deles. Você conecta seu roteador pessoal na ONU. A Brisanet continuará prestando suporte até a ONU. Qualquer problema com o seu roteador particular será de sua responsabilidade. Isso não viola seu contrato.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Pronto para ter um Wi-Fi de alta performance?</h2>
+                <p class="text-xl mb-8">Aplique essas dicas para ajudar nossos Clientes a jogar e assistir com uma conexão sem interrupções.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#solucoes-praticas" class="bg-white text-blue-700 font-medium px-8 py-3 rounded-lg hover:bg-blue-50 transition duration-300">Ver Soluções Práticas</a>
+                    <a href="#equipamentos-recomendados" class="bg-transparent border-2 border-white text-white font-medium px-8 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition duration-300">Ver Equipamentos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-6 md:mb-0">
+                        <h2 class="text-2xl font-bold">Brisanet</h2>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                         <a href="#causas-comuns" class="text-gray-400 hover:text-white transition duration-300">Causas</a>
+                         <a href="#solucoes-praticas" class="text-gray-400 hover:text-white transition duration-300">Soluções</a>
+                         <a href="#equipamentos-recomendados" class="text-gray-400 hover:text-white transition duration-300">Equipamentos</a>
+                         <a href="#faq" class="text-gray-400 hover:text-white transition duration-300">FAQ</a>
+                    </div>
+                </div>
+                
+                <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                    <p class="text-gray-400">©2025 Alison Braga da Silva</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tabs functionality
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    tabButtons.forEach(btn => {
+                        btn.classList.remove('text-blue-600', 'border-blue-600');
+                        btn.classList.add('text-gray-500');
+                    });
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    button.classList.remove('text-gray-500');
+                    button.classList.add('text-blue-600', 'border-blue-600');
+                    
+                    const contentId = 'content-' + button.id.substring(4);
+                    document.getElementById(contentId).classList.add('active');
+                });
+            });
+            
+            // FAQ functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => {
+                    const answer = item.querySelector('.faq-answer');
+                    const arrow = item.querySelector('.faq-arrow');
+                    
+                    const isHidden = answer.classList.contains('hidden');
+                    
+                    if (isHidden) {
+                        answer.classList.remove('hidden');
+                        arrow.classList.add('rotate-180');
+                    } else {
+                        answer.classList.add('hidden');
+                        arrow.classList.remove('rotate-180');
+                    }
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 60, // Adjust offset for fixed header
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

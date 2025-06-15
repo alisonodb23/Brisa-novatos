@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
         body {
@@ -65,7 +66,7 @@
         
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 25px -5px rgba(26, 25, 25, 0.1);
         }
         
         .nav-dropdown {
@@ -73,13 +74,13 @@
             top: 100%;
             left: 0;
             width: 220px;
-            background-color: white;
+            background-color: rgb(204, 202, 202);
             border-radius: 0.5rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             opacity: 0;
             visibility: hidden;
             transform: translateY(-10px);
-            transition: all 0.3s ease;
+            transition: all 0.13s ease;
             z-index: 50;
         }
         
@@ -94,7 +95,7 @@
         }
         
         .nav-dropdown-item:hover {
-            background-color: #f3f4f6;
+            background-color: lab(63.27% 30.87 66.93);
         }
         
         .scroll-btn {
@@ -103,8 +104,8 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color: #0066cc;
-            color: white;
+            background-color: #c05107;
+            color: rgb(219, 223, 220);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -115,7 +116,7 @@
         }
         
         .scroll-btn:hover {
-            background-color: #004c99;
+            background-color: #ee9d08;
             transform: translateY(-3px);
         }
         
@@ -215,7 +216,7 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
-            background-color: #f9fafb;
+            background-color: #ffffff;
             padding: 0 1.5rem;
         }
         

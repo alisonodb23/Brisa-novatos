@@ -7,7 +7,7 @@
         }
         
         .gradient-bg {
-            background: linear-gradient(135deg, #FF5722 0%, #4b3915 100%);
+            background: linear-gradient(135deg, #e65124 0%, #1ecbf7 100%);
         }
         
         .topic-bar {
@@ -74,7 +74,7 @@
             top: 100%;
             left: 0;
             width: 220px;
-            background-color: rgb(204, 202, 202);
+            background-color: rgb(204, 203, 202);
             border-radius: 0.5rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             opacity: 0;
@@ -95,7 +95,7 @@
         }
         
         .nav-dropdown-item:hover {
-            background-color: lab(71.8% 23.82 66.77);
+            background-color: lab(77.05% 17.48 57.12);
         }
         
         .scroll-btn {

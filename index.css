@@ -74,7 +74,7 @@
             top: 100%;
             left: 0;
             width: 220px;
-            background-color: rgb(204, 203, 202);
+            background-color: rgb(226, 225, 224);
             border-radius: 0.5rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
             opacity: 0;
@@ -95,7 +95,7 @@
         }
         
         .nav-dropdown-item:hover {
-            background-color: lab(77.05% 17.48 57.12);
+            background-color: lab(72.26% 27.71 44.3);
         }
         
         .scroll-btn {
@@ -193,7 +193,7 @@
         }
         
         .hover\:text-brisa-blue:hover {
-            color: #0066cc;
+            color: #f36405;
         }
         
         /* FAQ Styles */
@@ -231,4 +231,24 @@
         
         .faq-arrow.active {
             transform: rotate(180deg);
+        }
+
+        /* Configuração seta menu suspenço   */
+        .text-brisa-blue {
+            color: #4A90E2; /* Exemplo de cor azul; ajuste conforme necessário */
+        }
+
+        /* Estilos para a seta SVG dentro do botão */
+        .animated-arrow {
+            /* Adiciona uma transição suave para a propriedade 'transform' */
+            transition: transform 0.3s ease-in-out;
+            /* Garante que a seta ocupe um espaço pequeno e consistente */
+            width: 1rem; /* 16px */
+            height: 1rem; /* 16px */
+            margin-left: 0.25rem; /* Margem à esquerda para separar do texto */
+        }
+
+        /* Quando o botão (pai da seta) for hover, a seta gira 90 graus */
+        .animated-button:hover .animated-arrow {
+            transform: rotate(90deg);
         }
